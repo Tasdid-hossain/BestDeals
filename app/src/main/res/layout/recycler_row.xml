@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageFirst"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/nameFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageFirst"
+        android:layout_marginStart="119dp"
+        android:text="Restuarant"
+        android:textSize="18dp"
+        android:textColor="#2216a0"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="119dp" />
+
+    <TextView
+        android:id="@+id/dealsFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameFirst"
+        android:layout_centerVertical="true"
+        android:text="offer"
+        android:textColor="#a51864"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/nameFirst" />
+
+    <TextView
+        android:id="@+id/timeFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageFirst"
+        android:layout_alignStart="@+id/nameFirst"
+        android:text="Offer Period: asd asd a"
+        android:textSize="16dp"
+        android:textColor="#cdd1c8"
+        android:layout_alignLeft="@+id/nameFirst" />
+
+</RelativeLayout>
